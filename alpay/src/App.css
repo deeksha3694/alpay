@@ -22,3 +22,57 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+
+*The Register css*/
+.logincontainer {
+  padding: 8px;
+  text-align: left;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  padding-left: 14%;
+}
+
+.buttonContainer{
+  background-color: #ffffff;
+  padding-right: 38%;
+  padding-left: 30%;
+  padding-top: 2%;
+}
+
+.loginbutton{
+  background-color: #29a3ef;
+  border-radius: 20px;
+  height: 40px;
+  width: 80px;
+  font-size: 18px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bold;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+
+}
+
+/*.divStyle {
+  min-height: 1000px;
+  background-image: url(./static/hospital.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}*/
+
+/* Add padding to containers */
+.container {
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 40%;
+  padding: 20px 100px;
+  background-color: white;
+  color:black;
+}
+
+.pos{
+  margin-left: 0%;
+}
