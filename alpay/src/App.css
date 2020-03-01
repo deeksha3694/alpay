@@ -76,3 +76,105 @@
 .pos{
   margin-left: 0%;
 }
+
+.outercontainer {
+  width: 50%;
+  border-radius: 20px;
+  box-shadow: 0 0 5px #E6E5F4;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+.form{
+  align-content: center;
+  align-items: center;
+}
+
+.paymentform{
+  background-color: #ffffff;
+  text-align:center;
+  margin-right: 20%;
+  margin-left: 25%;
+  margin-top: 7%;
+  margin-bottom: 7%
+}
+
+.elements{
+  background: #f5f8fa;
+  margin-left: 10%;
+  margin-right: 10%
+}
+
+/* Style the navigation bar */
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #4CAF50;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+.bodylogin {
+  background-color: lightblue;
+  background-size: cover;
+  padding-bottom: 500px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/*The search menu */
+/* Style the search box */
+#mySearch {
+  width: 25%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+}
+
+/* Style the navigation menu */
+#myMenu {
+  list-style-type: none;
+  width: 25%;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style the navigation links */
+#myMenu li a {
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+  display: block
+}
+
+#myMenu li a:hover {
+  background-color: #eee;
+}
